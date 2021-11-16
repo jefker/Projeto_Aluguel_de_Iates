@@ -1,0 +1,226 @@
+@charset "utd-8";
+	
+	body{
+		font-family: Trebuchet MS;
+		font-style: italic;
+	}
+
+	h1{
+		color: #ffffff;
+		font-size: 22;
+	}
+	
+	h2{
+		color: #1BB4E8;
+		font-size: 20;
+	}
+
+	p{
+		font-style: normal;
+		font-size: 13
+	}
+	
+	body{
+		background-color: #EBEBEB;
+	}
+
+	nav{	
+		font-style: normal;
+		list-style: none;
+		color: #ffffff;
+		position: absolute;
+		margin: -20px 10px 20px 20px;
+	}
+	
+	a:link{
+		color: #ffffff;
+	}
+
+	a:hover{
+		color: #1BB4E8;
+		transition: color 0.5s;
+
+	}
+
+
+/* ===================================================================
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ * ---------------------------------------------------------------- */
+
+
+div#interface{
+	background-color: #ffffff;
+	padding: 0px;
+	width: 1058px;
+	margin: -10px auto -30px auto;
+}
+
+nav#menu a{
+	text-decoration: none;
+}
+
+nav#menu li {
+	display: inline-block;
+	margin: 10px;
+}
+
+div#textos {
+	position: relative;
+	padding: 40px 10px;
+	display: flex;
+	flex: row;
+	justify-content: space-around;
+
+}
+
+
+/* ===================================================================
+ * # Cabeçalho
+ * ---------------------------------------------------------------- */
+
+	section#topo h1{
+		position: absolute;
+		top: 30px;
+		left: 80px;
+	}
+
+	section#topo h2{
+		position: absolute;
+		top: 10px;
+		left: 80px;
+	}
+
+	figure.logo{
+		position: absolute;
+		left: 0px;
+		top: 10px;
+	}
+
+	section#topo{
+		position: relative;
+		background: #21272B;
+		padding: 50px;
+	}
+
+	section#topo nav{
+		right: 25px;
+	}
+
+
+/* ===================================================================
+ * # Principal
+ * ---------------------------------------------------------------- */
+	
+	div#principal{
+		position: relative;
+	}
+
+	section#coisaboa{
+		position: absolute;
+		color: #ffffff;
+		background-color: #21272B;
+		background-color: rgba(0, 0, 0, 0.568);
+		width: 330px;
+		padding: 20px 20px 35px;
+		right: 60px;
+		bottom: 90px;
+	}
+
+	#coisaboa big{
+		color: #C6B07F;
+	}
+
+	figure.barcao{
+		overflow: auto;
+		margin: 0px auto 0px;
+	}
+
+
+/* ===================================================================
+ * # Destinos
+ * ---------------------------------------------------------------- */
+
+	div#destinos{
+		position: relative;
+		width: 455px;
+	}
+
+	section#textodestinos{
+		position: relative;
+		text-align: justify;
+		padding: 17px 0px 10px 0px;
+	}
+
+	section#destinos{
+		position: relative;
+		background-color: #1BB4E8;
+		margin: 0px;
+		padding: 8px 100px 8px 12px;
+	}
+
+	section#destinos h1{
+		position: absolute;
+		margin: 10px;
+		left: 40px;
+		top: 2px;
+	}
+
+	figure.barcodestinos{
+		position: relative;
+		padding: 0px;
+		margin: 0px;
+
+	}
+
+
+/* ===================================================================
+ * # Nossa Frota
+ * ---------------------------------------------------------------- */
+
+	div#nossafrota{
+		position: relative;
+		width: 411px;
+	}
+
+	div#textofrota{
+		width: 412px;
+		position: relative;
+		text-align: justify;
+		padding: 17px 0px 10px 0px;
+	}
+
+	section#frota{
+		position: relative;
+		background-color: #C6B07F;
+		margin: 0px;
+		padding: 8px 100px 8px 12px;
+	}
+
+	section#frota h1{
+		position: absolute;
+		margin: 10px;
+		left: 40px;
+		top: 0px;
+	}
+
+	figure.barcofrota{
+		position: relative;
+		padding: 0px;
+		margin: 0px;
+	}
+
+
+/* ===================================================================
+ * # Rodapé
+ * ---------------------------------------------------------------- */
+
+div#rodape{
+	background-color: #EBEBEB;
+	padding: 25px 50px;
+	margin: 10px auto;
+}
+
+
+
+
+
